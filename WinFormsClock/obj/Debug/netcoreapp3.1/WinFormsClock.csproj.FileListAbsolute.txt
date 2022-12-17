@@ -1,0 +1,16 @@
+C:\Users\evela\source\repos\WformClock\WinFormsClock\bin\Debug\netcoreapp3.1\WinFormsClock.exe
+C:\Users\evela\source\repos\WformClock\WinFormsClock\bin\Debug\netcoreapp3.1\WinFormsClock.deps.json
+C:\Users\evela\source\repos\WformClock\WinFormsClock\bin\Debug\netcoreapp3.1\WinFormsClock.runtimeconfig.json
+C:\Users\evela\source\repos\WformClock\WinFormsClock\bin\Debug\netcoreapp3.1\WinFormsClock.runtimeconfig.dev.json
+C:\Users\evela\source\repos\WformClock\WinFormsClock\bin\Debug\netcoreapp3.1\WinFormsClock.dll
+C:\Users\evela\source\repos\WformClock\WinFormsClock\bin\Debug\netcoreapp3.1\WinFormsClock.pdb
+C:\Users\evela\source\repos\WformClock\WinFormsClock\obj\Debug\netcoreapp3.1\WinFormsClock.csproj.AssemblyReference.cache
+C:\Users\evela\source\repos\WformClock\WinFormsClock\obj\Debug\netcoreapp3.1\WinFormsClock.Clock.resources
+C:\Users\evela\source\repos\WformClock\WinFormsClock\obj\Debug\netcoreapp3.1\WinFormsClock.csproj.GenerateResource.cache
+C:\Users\evela\source\repos\WformClock\WinFormsClock\obj\Debug\netcoreapp3.1\WinFormsClock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\evela\source\repos\WformClock\WinFormsClock\obj\Debug\netcoreapp3.1\WinFormsClock.AssemblyInfoInputs.cache
+C:\Users\evela\source\repos\WformClock\WinFormsClock\obj\Debug\netcoreapp3.1\WinFormsClock.AssemblyInfo.cs
+C:\Users\evela\source\repos\WformClock\WinFormsClock\obj\Debug\netcoreapp3.1\WinFormsClock.csproj.CoreCompileInputs.cache
+C:\Users\evela\source\repos\WformClock\WinFormsClock\obj\Debug\netcoreapp3.1\WinFormsClock.dll
+C:\Users\evela\source\repos\WformClock\WinFormsClock\obj\Debug\netcoreapp3.1\WinFormsClock.pdb
+C:\Users\evela\source\repos\WformClock\WinFormsClock\obj\Debug\netcoreapp3.1\WinFormsClock.genruntimeconfig.cache

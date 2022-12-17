@@ -34,14 +34,18 @@ namespace WinFormsClock
 
             DateTime date1 = DateTime.UtcNow;
 
-            TimeZoneInfo tz = TimeZoneInfo.FindSystemTimeZoneById("Central Standard Time (Mexico)");
+            TimeZoneInfo tzMexico = TimeZoneInfo.FindSystemTimeZoneById("Central Standard Time (Mexico)");
 
-            DateTime date2 = TimeZoneInfo.ConvertTime(date1, tz);
+            DateTime date2 = TimeZoneInfo.ConvertTime(date1, tzMexico);
 
-            //this.label2.Text = DateTime.Now.ToString("HH:mm:ss"); //mexico
+            this.label2.Text = date2.ToString("HH:mm:ss"); //Mexico
 
-            this.label2.Text = date2.ToString("HH:mm:ss");
-            //TimeZoneInfo TZI = TimeZoneInfo.FindSystemTimeZoneById("GMT Standard Time");
+            TimeZoneInfo tzPeru = TimeZoneInfo.FindSystemTimeZoneById("SA Pacific Standard Time");
+
+            DateTime date3 = TimeZoneInfo.ConvertTime(date1, tzPeru);
+
+            this.label3.Text = date3.ToString("HH:mm:ss"); //Peru
+
 
         }
 
@@ -50,5 +54,9 @@ namespace WinFormsClock
 
         }
 
+        private void label3_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

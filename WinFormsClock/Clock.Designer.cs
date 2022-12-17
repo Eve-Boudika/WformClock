@@ -35,6 +35,8 @@
             this.Argentina = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.Mexico = new System.Windows.Forms.Label();
+            this.Peru = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -84,11 +86,34 @@
             this.Mexico.Text = "Mexico";
             this.Mexico.Click += new System.EventHandler(this.label3_Click);
             // 
+            // Peru
+            // 
+            this.Peru.AutoSize = true;
+            this.Peru.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Peru.Location = new System.Drawing.Point(45, 246);
+            this.Peru.Name = "Peru";
+            this.Peru.Size = new System.Drawing.Size(45, 19);
+            this.Peru.TabIndex = 4;
+            this.Peru.Text = "Peru";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("DS-Digital", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(45, 277);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(223, 63);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "19:38:12";
+            this.label3.Click += new System.EventHandler(this.label3_Click_1);
+            // 
             // Clock
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(312, 396);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.Peru);
             this.Controls.Add(this.Mexico);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Argentina);
@@ -113,5 +138,7 @@
         private System.Windows.Forms.Label Argentina;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label Mexico;
+        private System.Windows.Forms.Label Peru;
+        private System.Windows.Forms.Label label3;
     }
 }

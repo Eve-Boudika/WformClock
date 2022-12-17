@@ -43,6 +43,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("DS-Digital", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.label1.Location = new System.Drawing.Point(45, 64);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(223, 63);
@@ -59,6 +60,7 @@
             // 
             this.Argentina.AutoSize = true;
             this.Argentina.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Argentina.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.Argentina.Location = new System.Drawing.Point(45, 34);
             this.Argentina.Name = "Argentina";
             this.Argentina.Size = new System.Drawing.Size(83, 19);
@@ -69,6 +71,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("DS-Digital", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.label2.Location = new System.Drawing.Point(45, 169);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(223, 63);
@@ -79,6 +82,7 @@
             // 
             this.Mexico.AutoSize = true;
             this.Mexico.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Mexico.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.Mexico.Location = new System.Drawing.Point(45, 140);
             this.Mexico.Name = "Mexico";
             this.Mexico.Size = new System.Drawing.Size(63, 19);
@@ -90,16 +94,18 @@
             // 
             this.Peru.AutoSize = true;
             this.Peru.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Peru.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.Peru.Location = new System.Drawing.Point(45, 246);
             this.Peru.Name = "Peru";
-            this.Peru.Size = new System.Drawing.Size(45, 19);
+            this.Peru.Size = new System.Drawing.Size(135, 19);
             this.Peru.TabIndex = 4;
-            this.Peru.Text = "Peru";
+            this.Peru.Text = "Peru y Colombia";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("DS-Digital", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.label3.Location = new System.Drawing.Point(45, 277);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(223, 63);
@@ -111,6 +117,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(312, 396);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.Peru);

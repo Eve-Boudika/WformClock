@@ -63,9 +63,10 @@
             this.Argentina.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.Argentina.Location = new System.Drawing.Point(12, 9);
             this.Argentina.Name = "Argentina";
-            this.Argentina.Size = new System.Drawing.Size(83, 19);
+            this.Argentina.Size = new System.Drawing.Size(114, 19);
             this.Argentina.TabIndex = 1;
-            this.Argentina.Text = "Argentina";
+            this.Argentina.Text = "Argentina +54";
+            this.Argentina.Click += new System.EventHandler(this.Argentina_Click);
             // 
             // label2
             // 
@@ -85,9 +86,9 @@
             this.Mexico.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.Mexico.Location = new System.Drawing.Point(12, 80);
             this.Mexico.Name = "Mexico";
-            this.Mexico.Size = new System.Drawing.Size(63, 19);
+            this.Mexico.Size = new System.Drawing.Size(94, 19);
             this.Mexico.TabIndex = 3;
-            this.Mexico.Text = "Mexico";
+            this.Mexico.Text = "Mexico +52";
             this.Mexico.Click += new System.EventHandler(this.label3_Click);
             // 
             // Peru
@@ -97,9 +98,9 @@
             this.Peru.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.Peru.Location = new System.Drawing.Point(12, 151);
             this.Peru.Name = "Peru";
-            this.Peru.Size = new System.Drawing.Size(135, 19);
+            this.Peru.Size = new System.Drawing.Size(201, 19);
             this.Peru.TabIndex = 4;
-            this.Peru.Text = "Peru y Colombia";
+            this.Peru.Text = "Peru +51  y Colombia +57";
             // 
             // label3
             // 

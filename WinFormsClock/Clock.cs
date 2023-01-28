@@ -58,5 +58,10 @@ namespace WinFormsClock
         {
 
         }
+
+        private void Argentina_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
